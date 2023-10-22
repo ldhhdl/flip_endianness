@@ -7,4 +7,4 @@ format:
 check:
 	cppcheck main.cpp
 clean:
-	rm -vf stripper
+	rm -vf $(output_file)
